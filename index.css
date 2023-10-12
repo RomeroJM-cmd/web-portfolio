@@ -1,0 +1,96 @@
+*{
+  font-family: 'Kanit', sans-serif;
+font-family: 'Young Serif', serif;
+}
+
+
+
+
+.navbar-sticky-top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+
+  .portfolio{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+  }
+
+
+#landing img{
+  width: 250px;
+}
+
+/*mobile drop nav*/
+  #mob-drp{
+    z-index: 1030;
+  }
+
+
+/*Scroll*/
+html{
+  scroll-behavior: smooth;
+}
+
+
+.d-inline-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-inline-block img {
+  flex: 1;
+  max-height: 100%;
+  width: auto;
+}
+
+
+.bgimg{
+  background-image: url(./images/wp.jpg);
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+}
+
+/*proj color bg-img*/
+.bgcl{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,120,1) 39%, rgba(0,212,255,1) 100%);
+}
+
+
+/*bg in between*/
+.bgib{
+  background-color: black;
+}
+
+
+.stn{
+   background-image: url(./images/stn.jpg);
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+}
+
+
+.bgclb{
+  background-color: black;
+}
+
+
+ #tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('your-background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+  }
+
+
+  #tools img{
+    width: 80px;
+  }
